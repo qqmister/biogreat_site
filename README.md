@@ -55,10 +55,13 @@ Headline
 
 “Eco-Friendly Quality Grown in Moldova’s Rich Lands”
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 38e57beb8a3e0c41520e6e6ffce03560fb5bf7e7
 Subheading
 
 “At Bio-Great, we cultivate handpicked vegetables and nutrient-rich cereals with sustainable practices, nestled between two pristine rivers.”
