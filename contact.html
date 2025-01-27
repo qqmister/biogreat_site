@@ -80,22 +80,45 @@
 
 
 
-    <!-- Hero Start -->
-    <div class="container-fluid bg-primary py-5 bg-hero mb-5">
-        <div class="container py-5">
-            <div class="row justify-content-start">
-                <div class="col-lg-8 text-center text-lg-start">
-                    <h1 class="display-1 text-white mb-md-4">Contact Us</h1>
-                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Home</a>
-                    <a href="" class="btn btn-secondary py-md-3 px-md-5">Contact Us</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Hero End -->
 
 
     <!-- Contact Start -->
+    <style>
+   .contact-info-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.contact-info:hover {
+    transform: translateY(-5px);
+}
+
+.contact-info h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    line-height: 1.5;
+    
+}
+.highlight {
+
+    color: #ff5733; /* Choose a color that stands out */
+    font-family: 'Roboto Slab', sans-serif; /* Ensure correct font-family syntax */
+ /* Light background color to make it pop */
+    font-size: 1.2rem !important;
+
+
+    display: inline-block;
+}
+    </style>
     <div class="container-fluid py-5">
         <div class="container">
             <div class="mx-auto text-center mb-5" style="max-width: 500px;">
@@ -103,7 +126,7 @@
                 <h1 class="display-5">Please Feel Free To Contact Us</h1>
             </div>
             <div class="row g-0">
-                <div class="col-lg-7">
+                <div class="col-lg-8">
                     <div class="bg-primary h-100 p-5">
                         <form>
                             <div class="row g-3">
@@ -126,36 +149,13 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-lg-5">
-                    <div class="bg-secondary h-100 p-5">
-                        <h2 class="text-white mb-4">Get In Touch</h2>
-                        <div class="d-flex mb-4">
-                            <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                                <i class="bi bi-geo-alt fs-4 text-white"></i>
-                            </div>
-                            <div class="ps-3">
-                                <h5 class="text-white">Our Office</h5>
-                                <span class="text-white">123 Street, New York, USA</span>
-                            </div>
-                        </div>
-                        <div class="d-flex mb-4">
-                            <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                                <i class="bi bi-envelope-open fs-4 text-white"></i>
-                            </div>
-                            <div class="ps-3">
-                                <h5 class="text-white">Email Us</h5>
-                                <span class="text-white">info@example.com</span>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                                <i class="bi bi-phone-vibrate fs-4 text-white"></i>
-                            </div>
-                            <div class="ps-3">
-                                <h5 class="text-white">Call Us</h5>
-                                <span class="text-white">+012 345 6789</span>
-                            </div>
-                        </div>
+                <div class="col-lg-4 d-flex align-items-center contact-info-container">
+                    <div class="contact-info bg-light p-4 rounded">
+                        <h4 class="text-primary">We'd Love to Hear from You!</h4>
+                        <p class="mb-0">Whether you have a question about our products, pricing, or anything else, our team is ready to answer all your questions.</p>
+                        <p class="mb-0 mt-3 highlight"><strong>BioGreat Main Office</strong></p>
+                        <p class="mb-0 mt-3" style="color: #3d3d3d;">Văratic, Rîșcani<br>Republic of Moldova<br>Phone: +373 78787018<br>E-mail: irina@biogreat.site</p>
+                        <p class="mb-0 mt-3">Thank you for considering BioGreat. We look forward to connecting with you!</p>
                     </div>
                 </div>
             </div>
@@ -164,68 +164,113 @@
     <!-- Contact End -->
 
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-footer bg-primary text-white mt-5">
+    <!-- Footer Start --> <style>
+        .footer-section {
+            padding: 2rem 0;
+            min-height: 0; /* Ensure consistent height */
+        }
+        
+        .footer-content {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.5rem;
+            gap: 0.75rem;
+        }
+        
+        .contact-item i {
+            font-size: 1.25rem;
+            width: 24px;
+        }
+        
+        .contact-item p {
+            margin: 0;
+            font-size: 1.1rem;
+        }
+        
+        .social-icons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .footer-title {
+            font-size: 1.75rem;
+            color: white;
+            margin-bottom: 2rem;
+            font-weight: 600;
+        }
+        
+        .quick-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            padding: 0rem 0;
+            margin-bottom: 0;
+            transition: all 0.3s;
+        }
+        
+        .quick-links a:hover {
+            color: var(--secondary);
+        }
+    </style>
+    
+    <div class="container-fluid bg-footer bg-primary text-white">
         <div class="container">
-            <div class="row gx-5">
-                <div class="col-lg-8 col-md-6">
-                    <div class="row gx-5">
-                        <div class="col-lg-4 col-md-12 pt-5 mb-5">
-                            <h4 class="text-white mb-4">Get In Touch</h4>
-                            <div class="d-flex mb-2">
-                                <i class="bi bi-geo-alt text-white me-2"></i>
-                                <p class="text-white mb-0">123 Street, New York, USA</p>
-                            </div>
-                            <div class="d-flex mb-2">
-                                <i class="bi bi-envelope-open text-white me-2"></i>
-                                <p class="text-white mb-0">info@example.com</p>
-                            </div>
-                            <div class="d-flex mb-2">
-                                <i class="bi bi-telephone text-white me-2"></i>
-                                <p class="text-white mb-0">+012 345 67890</p>
-                            </div>
-                            <div class="d-flex mt-4">
-                                <a class="btn btn-secondary btn-square rounded-circle me-2" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-secondary btn-square rounded-circle me-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-secondary btn-square rounded-circle me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-secondary btn-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
+            <div class="row g-5">
+                <!-- Get In Touch Section -->
+                <div class="col-lg-3 footer-section">
+                    <div class="footer-content">
+                        <h4 class="footer-title">Get In Touch</h4>
+                        <div class="contact-item">
+                            <i class="bi bi-geo-alt"></i>
+                            <p>Văratic, Rîșcani</p>
                         </div>
-                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
-                            <h4 class="text-white mb-4">Quick Links</h4>
-                            <div class="d-flex flex-column justify-content-start">
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Home</a>
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>About Us</a>
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Our Services</a>
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Meet The Team</a>
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Latest Blog</a>
-                                <a class="text-white" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Contact Us</a>
-                            </div>
+                        <div class="contact-item">
+                            <i class="bi bi-envelope-open"></i>
+                            <p>irina@biogreat.site</p>
                         </div>
-                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
-                            <h4 class="text-white mb-4">Popular Links</h4>
-                            <div class="d-flex flex-column justify-content-start">
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Home</a>
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>About Us</a>
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Our Services</a>
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Meet The Team</a>
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Latest Blog</a>
-                                <a class="text-white" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Contact Us</a>
-                            </div>
+                        <div class="contact-item">
+                            <i class="bi bi-telephone"></i>
+                            <p>+373 78787018</p>
+                        </div>
+
+                    </div>
+                </div>
+    
+                <!-- Quick Links Section -->
+                <div class="col-lg-3 footer-section">
+                    <div class="footer-content">
+                        <h4 class="footer-title">Quick Links</h4>
+                        <div class="quick-links d-flex flex-column align-items-center gap-2">
+                            <a href="index.html" >Home</a>
+                            <a href="about.html">About</a>
+                            <a href="product.html">Product</a>
+                            <a href="contact.html">Contact</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-lg-n5">
-                    <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-secondary p-5">
-                        <h4 class="text-white">Newsletter</h4>
-                        <h6 class="text-white">Subscribe Our Newsletter</h6>
-                        <p>Amet justo diam dolor rebum lorem sit stet sea justo kasd</p>
-                        <form action="">
-                            <div class="input-group">
-                                <input type="text" class="form-control border-white p-3" placeholder="Your Email">
-                                <button class="btn btn-primary">Sign Up</button>
-                            </div>
-                        </form>
+    
+                <!-- Map Section -->
+                <div class="col-lg-6 footer-section">
+                    <div class="footer-content">
+                        <h4 class="footer-title">Find Us</h4>
+                        <div class="position-relative w-100" style="height: 300px;">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1767937.67588446!2d27.007606499963366!3d47.125199689500484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDfCsDU0JzE5LjEiTiAyN8KwMTMnNDcuMCJF!5e1!3m2!1sro!2s!4v1737926856770!5m2!1sro!2s" 
+                                    width="100%" 
+                                    height="100%" 
+                                    style="border:0; border-radius: 8px;" 
+                                    allowfullscreen="" 
+                                    loading="lazy">
+                            </iframe>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -233,7 +278,7 @@
     </div>
     <div class="container-fluid bg-dark text-white py-4">
         <div class="container text-center">
-            <p class="mb-0">&copy; <a class="text-secondary fw-bold" href="#">Your Site Name</a>. All Rights Reserved. Designed by <a class="text-secondary fw-bold" href="https://htmlcodex.com">HTML Codex</a></p>
+            <p class="mb-0">&copy; <a class="text-secondary fw-bold" href="#">BioGreat</a>. All Rights Reserved. Designed by <a class="text-secondary fw-bold" href="https://htmlcodex.com">HTML Codex</a></p>
         </div>
     </div>
     <!-- Footer End -->

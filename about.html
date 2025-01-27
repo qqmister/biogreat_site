@@ -258,60 +258,113 @@
     </div>
     <!-- Team End -->
     
-
     <style>
         .footer-section {
+            padding: 2rem 0;
+            min-height: 0; /* Ensure consistent height */
+        }
+        
+        .footer-content {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        
+        .contact-item {
             display: flex;
             align-items: center;
-            justify-content: center;
-            height: 100%;
-            padding: 3rem 0;
-        }
-        .contact-info {
-            font-size: 1.2rem;
             margin-bottom: 0.5rem;
+            gap: 0.75rem;
         }
-        .social-icons a {
+        
+        .contact-item i {
+            font-size: 1.25rem;
+            width: 24px;
+        }
+        
+        .contact-item p {
+            margin: 0;
+            font-size: 1.1rem;
+        }
+        
+        .social-icons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .footer-title {
+            font-size: 1.75rem;
+            color: white;
+            margin-bottom: 2rem;
+            font-weight: 600;
+        }
+        
+        .quick-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            padding: 0rem 0;
+            margin-bottom: 0;
             transition: all 0.3s;
         }
-        .social-icons a:hover {
-            transform: translateY(-3px);
-        }
-        .footer-title {
-            font-size: 2rem;
-            color: white;
-            margin-bottom: 1rem;
+        
+        .quick-links a:hover {
+            color: var(--secondary);
         }
     </style>
     
     <div class="container-fluid bg-footer bg-primary text-white">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 footer-section">
-                    <div class="text-center">
-                        <h4 class="footer-title" class="text-white">Get In Touch</h4>
-                        <div class="contact-info d-flex justify-content-center align-items-center ">
-                            <i class="bi bi-geo-alt text-white me-3 fs-4"></i>
-                            <p class="mb-0">Văratic, Rîșcani</p>
+            <div class="row g-5">
+                <!-- Get In Touch Section -->
+                <div class="col-lg-3 footer-section">
+                    <div class="footer-content">
+                        <h4 class="footer-title">Get In Touch</h4>
+                        <div class="contact-item">
+                            <i class="bi bi-geo-alt"></i>
+                            <p>Văratic, Rîșcani</p>
                         </div>
-                        <div class="contact-info d-flex justify-content-center align-items-center">
-                            <i class="bi bi-envelope-open text-white me-3 fs-4"></i>
-                            <p class="mb-0">irina@biogreat.com</p>
+                        <div class="contact-item">
+                            <i class="bi bi-envelope-open"></i>
+                            <p>irina@biogreat.site</p>
                         </div>
-                        <div class="contact-info d-flex justify-content-center align-items-center mb-4">
-                            <i class="bi bi-telephone text-white me-3 fs-4"></i>
-                            <p class="mb-0">+373 78787018</p>
+                        <div class="contact-item">
+                            <i class="bi bi-telephone"></i>
+                            <p>+373 78787018</p>
                         </div>
-                        <div class="social-icons d-flex justify-content-center gap-3">
-                            <a class="btn btn-secondary btn-lg rounded-circle" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-secondary btn-lg rounded-circle" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-secondary btn-lg rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+
+                    </div>
+                </div>
+    
+                <!-- Quick Links Section -->
+                <div class="col-lg-3 footer-section">
+                    <div class="footer-content">
+                        <h4 class="footer-title">Quick Links</h4>
+                        <div class="quick-links d-flex flex-column align-items-center gap-2">
+                            <a href="index.html" >Home</a>
+                            <a href="about.html">About</a>
+                            <a href="product.html">Product</a>
+                            <a href="contact.html">Contact</a>
                         </div>
                     </div>
                 </div>
+    
+                <!-- Map Section -->
                 <div class="col-lg-6 footer-section">
-                    <div class="position-relative" style="height: 40vh; width: 100%;">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1767937.67588446!2d27.007606499963366!3d47.125199689500484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDfCsDU0JzE5LjEiTiAyN8KwMTMnNDcuMCJF!5e1!3m2!1sro!2s!4v1737926856770!5m2!1sro!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <div class="footer-content">
+                        <h4 class="footer-title">Find Us</h4>
+                        <div class="position-relative w-100" style="height: 300px;">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1767937.67588446!2d27.007606499963366!3d47.125199689500484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDfCsDU0JzE5LjEiTiAyN8KwMTMnNDcuMCJF!5e1!3m2!1sro!2s!4v1737926856770!5m2!1sro!2s" 
+                                    width="100%" 
+                                    height="100%" 
+                                    style="border:0; border-radius: 8px;" 
+                                    allowfullscreen="" 
+                                    loading="lazy">
+                            </iframe>
+                        </div>
                     </div>
                 </div>
             </div>
