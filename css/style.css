@@ -292,3 +292,113 @@
         margin-top: 90px !important;
     }
 }
+
+/* Banner styles using Bootstrap's utilities */
+.banner {
+    position: relative;
+    z-index: 2;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    background-color: #ef5551;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+}
+
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-text {
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.banner-text h3 {
+    font-family: var(--bs-font-sans-serif);
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.banner-text p {
+    font-size: 1rem;
+    color: #ffffff;
+    margin: 0;
+}
+
+.btn-custom {
+    padding: 1rem 2rem;
+    background-color: #212529;
+    color: #ffffff;
+    border-radius: 50px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #454040;
+    color: #ffffff;
+}
+
+
+.banner {
+    position: relative;
+    z-index: 2;
+    margin-top: -50px;  /* Adjust this value to control how much it overlaps */
+    margin-bottom: 50px; /* This balances the overlap for the section below */
+    background-color: #ef5551;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+}
+.banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-text {
+    padding: 1.5rem;
+}
+
+.banner-text h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+    .banner {
+        margin: -30px 15px 30px 15px;
+        padding: 1.5rem;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    
+    .banner-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+
+    .banner-text {
+        padding: 0.5rem;
+        text-align: left;
+    }
+
+    .banner-text h3 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .btn-custom {
+        align-self: flex-start;
+        margin-left: 0.5rem;
+    }
+}
