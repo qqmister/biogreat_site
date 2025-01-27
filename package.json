@@ -1,0 +1,18 @@
+{
+  "name": "biogreat",
+  "version": "1.0.0",
+  "description": "Website Structure\r   1.  Home/Landing Page\r   •  Hero Section:\r   •  Background: A scenic view of your fields, showcasing crops and the rivers Prut and Ciugur.\r   •  Headline: “Bio-Great: Eco-Friendly, Handpicked Quality from Moldova’s Rich Lands”\r   •  Subheading: “From our family farm in Varatic, Riscani, we deliver handpicked vegetables and high-quality cereals grown with care and sustainability in mind.”\r   •  Call-to-Action (CTA): “Contact Us to Learn More”\r   •  Highlights Section:\r   •  Short bullet points:\r   •  “Eco-friendly farming between Prut & Ciugur rivers.”\r   •  “Handpicked vegetables and nutrient-rich cereals.”\r   •  “Sustainable practices like crop rotation & organic fertilizers.”\r   •  “Family-owned and focused on quality.”",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.83.4"
+  }
+}
