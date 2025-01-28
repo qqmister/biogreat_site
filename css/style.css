@@ -102,6 +102,12 @@
     background-size: cover;
 }
 
+.bg-product {
+    background: url(../images/bgh.jpg) top right no-repeat;
+    background-size: cover;
+
+}
+
 @media (min-width: 991.98px) {
     .banner {
         position: relative;
