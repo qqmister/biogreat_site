@@ -1,392 +1,527 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>BioGreat</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/favicon.ico" rel="icon" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
 
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
     <!-- Topbar Start -->
     <div class="container-fluid px-5 d-none d-lg-block">
-        <div class="row gx-5 py-3 align-items-center">
-            <div class="col-lg-3">
-                <div class="d-flex align-items-center justify-content-start">
-                    <i class="bi bi-phone-vibrate fs-1 text-primary me-2"></i>
-                    <h2 class="mb-0">+373 78787018</h2>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="d-flex align-items-center justify-content-center">
-                    <a href="index.html" class="navbar-brand ms-lg-5">
-                        <h1 class="m-0 display-4 text-primary"><span class="text-secondary">Bio</span>Great</h1>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="d-flex align-items-center justify-content-end">
-                    <a class="btn btn-primary btn-square rounded-circle me-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-primary btn-square rounded-circle me-2" href="https://www.linkedin.com/in/irina-pintea-b45bb4133/ "><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-primary btn-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
+      <div class="row gx-5 py-3 align-items-center">
+        <div class="col-lg-3">
+          <div class="d-flex align-items-center justify-content-start">
+            <i class="bi bi-phone-vibrate fs-1 text-primary me-2"></i>
+            <h2 class="mb-0">+373 78787018</h2>
+          </div>
         </div>
+        <div class="col-lg-6">
+          <div class="d-flex align-items-center justify-content-center">
+            <a href="index.html" class="navbar-brand ms-lg-5">
+              <h1 class="m-0 display-4 text-primary">
+                <span class="text-secondary">Bio</span>Great
+              </h1>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="d-flex align-items-center justify-content-end">
+            <a class="btn btn-primary btn-square rounded-circle me-2" href="#"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              class="btn btn-primary btn-square rounded-circle me-2"
+              href="https://www.linkedin.com/in/irina-pintea-b45bb4133/ "
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="btn btn-primary btn-square rounded-circle" href="#"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Topbar End -->
 
-
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5">
-        <a href="index.html" class="navbar-brand d-flex d-lg-none">
-            <h1 class="m-0 display-4 text-secondary"><span class="text-white">Bio</span>Great</h1>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav mx-auto py-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="product.html" class="nav-item nav-link">Product</a>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
-            </div>
+    <nav
+      class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5"
+    >
+      <a href="index.html" class="navbar-brand d-flex d-lg-none">
+        <h1 class="m-0 display-4 text-secondary">
+          <span class="text-white">Bio</span>Great
+        </h1>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav mx-auto py-0">
+          <a href="index.html" class="nav-item nav-link active">Home</a>
+          <a href="product.html" class="nav-item nav-link">Product</a>
+          <a href="contact.html" class="nav-item nav-link">Contact</a>
         </div>
+      </div>
     </nav>
     <!-- Navbar End -->
 
-
     <!-- Carousel Start -->
     <!-- Carousel Start -->
-<div class="container-fluid p-0">
-    <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="container-fluid p-0">
+      <div
+        id="header-carousel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="w-100" src="images/car1.jpg" alt="Image" style="height: 600px; object-fit: cover;">
-                <div class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center">
-                    <div class="text-start p-5" style="max-width: 900px;">
-                        <h3 class="text-white">Organic Vegetables</h3>
-                        <h1 class="display-1 text-white mb-md-4">Organic Vegetables For Healthy Life</h1>
-                        <a href="contact.html" class="btn btn-primary py-md-3 px-md-5 me-3">Get to know us.</a>
-                    </div>
-                </div>
+          <div class="carousel-item active">
+            <img
+              class="w-100"
+              src="images/car1.jpg"
+              alt="Image"
+              style="height: 600px; object-fit: cover"
+            />
+            <div
+              class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="text-start p-5" style="max-width: 900px">
+                <h3 class="text-white">Fresh Vegetables</h3>
+                <h1 class="display-1 text-white mb-md-4">
+                  Moldovan Vegetables Naturally Grown
+                </h1>
+                <a
+                  href="contact.html"
+                  class="btn btn-primary py-md-3 px-md-5 me-3"
+                  >Get to know us.</a
+                >
+              </div>
             </div>
-            <div class="carousel-item">
-                <img class="w-100" src="images/car2.jpg" alt="Image" style="height: 600px; object-fit: cover;">
-                <div class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center">
-                    <div class="text-start p-5" style="max-width: 900px;">
-                        <h3 class="text-white">Organic Fruits</h3>
-                        <h1 class="display-1 text-white mb-md-4">Organic Fruits For Better Health</h1>
-                        <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Explore</a>
-                        <a href="" class="btn btn-secondary py-md-3 px-md-5">Contact</a>
-                    </div>
-                </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="w-100"
+              src="images/car2.jpg"
+              alt="Image"
+              style="height: 600px; object-fit: cover"
+            />
+            <div
+              class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="text-start p-5" style="max-width: 900px">
+                <h3 class="text-white">Fresh Fruits</h3>
+                <h1 class="display-1 text-white mb-md-4">
+                  Handpicked Fruits from Moldova
+                </h1>
+
+                <a href="" class="btn btn-secondary py-md-3 px-md-5"
+                  >Contact us.</a
+                >
+              </div>
             </div>
+          </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#header-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#header-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
         </button>
+      </div>
     </div>
-</div>
     <!-- Carousel End -->
 
+    <!-- Banner Start -->
 
- <!-- Banner Start -->
-
- <div class="banner mb-5">
-    <div class="banner-content">
+    <div class="banner mb-5">
+      <div class="banner-content">
         <div class="banner-text">
-            <h3>Are you a Retailer?<br>Need Watermelons NOW?</h3>
-            <p>We've got you covered.</p>
+          <h3>Are you a Retailer?<br />Need Watermelons NOW?</h3>
+          <p>We've got you covered.</p>
         </div>
         <div>
-            <a class="btn btn-custom" href="contact.html">PLACE AN ORDER</a>
+          <a class="btn btn-custom" href="contact.html">PLACE AN ORDER</a>
         </div>
+      </div>
     </div>
-</div>
-<!-- Banner End -->
-
+    <!-- Banner End -->
 
     <!-- About Start -->
- <!-- About Start -->
-<div class="container-fluid about pt-5">
-    <div class="container">
+    <!-- About Start -->
+    <div class="container-fluid about pt-5">
+      <div class="container">
         <div class="row gx-5">
-            <div class="col-lg-6 mb-5 mb-lg-0">
-                <div class="d-flex border border-5 border-primary border-bottom-0" style="height: 500px;">
-                    <img class="img-fluid" src="images/serimg1.jpg" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <div
+              class="d-flex border border-5 border-primary border-bottom-0"
+              style="height: 500px"
+            >
+              <img
+                class="img-fluid"
+                src="images/serimg1.jpg"
+                style="width: 100%; height: 100%; object-fit: cover"
+              />
             </div>
-            <div class="col-lg-6 pb-5">
-                <div class="mb-3 pb-2">
-                    <h6 class="text-primary text-uppercase">About Us</h6>
-                    <h1 class="display-5">We Produce Organic Food For Your Family</h1>
-                </div>
-                <p class="mb-4">At Bio-Great, we are a family-owned business that believes in combining tradition with sustainability to deliver the finest produce. Nestled between the rivers Prut and Ciugur in Northern Moldova, our farm benefits from nutrient-rich soil and an ideal climate for agriculture.</p>
-                <div class="row gx-5 gy-4">
-                    <div class="col-sm-6">
-                        <i class="fa fa-seedling display-1 text-secondary"></i>
-                        <h4>100% Organic</h4>
-                        <p class="mb-0">Commitment to eco-friendly and sustainable practices.</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <i class="fa fa-award display-1 text-secondary"></i>
-                        <h4>Handpicked Quality</h4>
-                        <p class="mb-0">Emphasis on handpicked quality.</p>
-                    </div>
-                </div>
+          </div>
+          <div class="col-lg-6 pb-5">
+            <div class="mb-3 pb-2">
+              <h6 class="text-primary text-uppercase">About Us</h6>
+              <h1 class="display-5">Local Produce Grown with Care</h1>
             </div>
+            <p class="mb-4">
+              At Bio-Great, we are a family-owned business that believes in
+              combining tradition with sustainability to deliver the finest
+              produce. Nestled between the rivers Prut and Ciugur in Northern
+              Moldova, our farm benefits from nutrient-rich soil and an ideal
+              climate for agriculture.
+            </p>
+            <div class="row gx-5 gy-4">
+              <div class="col-sm-6">
+                <i class="fa fa-seedling display-1 text-secondary"></i>
+                <h4>Eco-Friendly Farming</h4>
+                <p class="mb-0">
+                  Dedicated to sustainable practices for better produce.
+                </p>
+              </div>
+              <div class="col-sm-6">
+                <i class="fa fa-award display-1 text-secondary"></i>
+                <h4>Handpicked Produce</h4>
+                <p class="mb-0">
+                  Focused on delivering the freshest, highest-quality harvest.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<!-- About End -->
     <!-- About End -->
-
+    <!-- About End -->
 
     <!-- Features Start -->
     <div class="container-fluid bg-primary feature py-5 pb-lg-0 my-5">
-        <div class="container py-5 pb-lg-0">
-            <div class="mx-auto text-center mb-3 pb-2" style="max-width: 500px;">
-                <h6 class="text-uppercase text-secondary">Features</h6>
-                <h1 class="display-5 text-white">Why Choose Us</h1>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-3">
-                    <div class="text-white mb-5">
-                        <div class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="fa fa-seedling fs-4 text-white"></i>
-                        </div>
-                        <h4 class="text-white">Eco-friendly farming</h4>
-                        <p class="mb-0">Located between Prut & Ciugur rivers, our farm embraces natural cultivation methods</p>
-                    </div>
-                    <div class="text-white">
-                        <div class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="fa fa-award fs-4 text-white"></i>
-                        </div>
-                        <h4 class="text-white">Handpicked Quality</h4>
-                        <p class="mb-0">Fresh vegetables and nutrient-rich cereals, carefully selected for your table</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="d-block bg-white h-100 text-center p-5 pb-lg-0">
-                        <p>Our family-owned farm is committed to sustainable agriculture, providing you with the healthiest produce while preserving our land for future generations. We combine traditional farming wisdom with modern eco-friendly practices to deliver exceptional quality.</p>
-                        <img class="img-fluid" src="images/vvimg.jpg" alt="" style="width: 100%; max-height: 300px; object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="text-white mb-5">
-                        <div class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="fa fa-tractor fs-4 text-white"></i>
-                        </div>
-                        <h4 class="text-white">Sustainable Practices</h4>
-                        <p class="mb-0">Implementing crop rotation & organic fertilizers for healthier soil and produce</p>
-                    </div>
-                    <div class="text-white">
-                        <div class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="fa fa-phone-alt fs-4 text-white"></i>
-                        </div>
-                        <h4 class="text-white">Family-Owned</h4>
-                        <p class="mb-0">Dedicated to quality and customer satisfaction through personal attention</p>
-                    </div>
-                </div>
-            </div>
+      <div class="container py-5 pb-lg-0">
+        <div class="mx-auto text-center mb-3 pb-2" style="max-width: 500px">
+          <h6 class="text-uppercase text-secondary">Features</h6>
+          <h1 class="display-5 text-white">Why Choose Us</h1>
         </div>
+        <div class="row g-5">
+          <div class="col-lg-3">
+            <div class="text-white mb-5">
+              <div
+                class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3"
+                style="width: 60px; height: 60px"
+              >
+                <i class="fa fa-seedling fs-4 text-white"></i>
+              </div>
+              <h4 class="text-white">Eco-friendly farming</h4>
+              <p class="mb-0">
+                Our farm operates with respect for the environment, using
+                methods that nurture both the crops and the soil.
+              </p>
+            </div>
+            <div class="text-white">
+              <div
+                class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3"
+                style="width: 60px; height: 60px"
+              >
+                <i class="fa fa-award fs-4 text-white"></i>
+              </div>
+              <h4 class="text-white">Handpicked Produce</h4>
+              <p class="mb-0">
+                Fresh vegetables and nutrient-rich cereals, carefully selected
+                for your table
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="d-block bg-white h-100 text-center p-5 pb-lg-0">
+              <p>
+                Our family-owned farm is committed to sustainable agriculture,
+                providing you with the healthiest produce while preserving our
+                land for future generations. We combine traditional farming
+                wisdom with modern eco-friendly practices to deliver exceptional
+                quality.
+              </p>
+              <img
+                class="img-fluid"
+                src="images/vvimg.jpg"
+                alt=""
+                style="width: 100%; max-height: 300px; object-fit: cover"
+              />
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="text-white mb-5">
+              <div
+                class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3"
+                style="width: 60px; height: 60px"
+              >
+                <i class="fa fa-tractor fs-4 text-white"></i>
+              </div>
+              <h4 class="text-white">Sustainable Practices</h4>
+              <p class="mb-0">
+                Implementing crop rotation & organic fertilizers for healthier
+                soil and produce
+              </p>
+            </div>
+            <div class="text-white">
+              <div
+                class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3"
+                style="width: 60px; height: 60px"
+              >
+                <i class="fa fa-phone-alt fs-4 text-white"></i>
+              </div>
+              <h4 class="text-white">Family-Owned</h4>
+              <p class="mb-0">
+                Dedicated to quality and customer satisfaction through personal
+                attention
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Features Start -->
 
-
-  
-
     <!-- Team Start -->
     <div class="container-fluid py-5">
-        <div class="container">
-            <div class="mx-auto text-center mb-5" style="max-width: 500px;">
-                <h6 class="text-primary text-uppercase">The Team</h6>
-                <h1 class="display-5">We Are Professional Organic Farmers</h1>
-            </div>
-            <div class="row g-5 justify-content-center">
-                <!-- Insert Youtube Video of Irina-->
-                <div class="col-12">
-                    <div class="row g-0">
-                        <div class="col-12">
-                            <div class="position-relative" style="padding-bottom: 45%; height: 0; overflow: hidden;">
-                                <iframe class="position-absolute top-0 start-0 w-100 h-100" src="https://www.youtube.com/embed/6p0343eubd8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Image Column -->
-            </div>
+      <div class="container">
+        <div class="mx-auto text-center mb-5" style="max-width: 500px">
+          <h6 class="text-primary text-uppercase">The Team</h6>
+          <h1 class="display-5">We Are Professional Farmers</h1>
         </div>
+        <div class="row g-5 justify-content-center">
+          <!-- Insert Youtube Video of Irina-->
+          <div class="col-12">
+            <div class="row g-0">
+              <div class="col-12">
+                <div
+                  class="position-relative"
+                  style="padding-bottom: 45%; height: 0; overflow: hidden"
+                >
+                  <iframe
+                    class="position-absolute top-0 start-0 w-100 h-100"
+                    src="https://www.youtube.com/embed/6p0343eubd8"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Image Column -->
+        </div>
+      </div>
     </div>
     <!-- Team End -->
 
-
     <!-- Blog Start -->
-   
 
     <!-- Blog End -->
     <style>
-        .footer-section {
-            padding: 2rem 0;
-            min-height: 0; /* Ensure consistent height */
-        }
-        
-        .footer-content {
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-        }
-        
-        .contact-item {
-            display: flex;
-            align-items: center;
-            margin-bottom: 0.5rem;
-            gap: 0.75rem;
-        }
-        
-        .contact-item i {
-            font-size: 1.25rem;
-            width: 24px;
-        }
-        
-        .contact-item p {
-            margin: 0;
-            font-size: 1.1rem;
-        }
-        
-        .social-icons {
-            display: flex;
-            gap: 1rem;
-            margin-top: 2rem;
-        }
-        
-        .footer-title {
-            font-size: 1.75rem;
-            color: white;
-            margin-bottom: 2rem;
-            font-weight: 600;
-        }
-        
-        .quick-links a {
-            color: white;
-            text-decoration: none;
-            font-size: 1.1rem;
-            padding: 0rem 0;
-            margin-bottom: 0;
-            transition: all 0.3s;
-        }
-        
-        .quick-links a:hover {
-            color: var(--secondary);
-        }
-    </style>
-    
-    <div class="container-fluid bg-footer bg-primary text-white">
-        <div class="container">
-            <div class="row">
-                <!-- Get In Touch Section -->
-                <div class="col-lg-3 footer-section">
-                    <div class="footer-content">
-                        <h4 class="footer-title">Get In Touch</h4>
-                        <div class="contact-item">
-                            <i class="bi bi-geo-alt"></i>
-                            <p>Văratic, Rîșcani</p>
-                        </div>
-                        <div class="contact-item">
-                            <i class="bi bi-envelope-open"></i>
-                            <p>irina@biogreat.site</p>
-                        </div>
-                        <div class="contact-item">
-                            <i class="bi bi-telephone"></i>
-                            <p>+373 78787018</p>
-                        </div>
+      .footer-section {
+        padding: 2rem 0;
+        min-height: 0; /* Ensure consistent height */
+      }
 
-                    </div>
-                </div>
-    
-                <!-- Quick Links Section -->
-                <div class="col-lg-3 footer-section">
-                    <div class="footer-content">
-                        <h4 class="footer-title">Quick Links</h4>
-                        <div class="quick-links d-flex flex-column align-items-center gap-2">
-                            <a href="index.html">Home</a>
-                            <a href="product.html">Product</a>
-                            <a href="contact.html">Contact</a>
-                        </div>
-                    </div>
-                </div>
-    
-                <!-- Map Section -->
-                <div class="col-lg-6 footer-section">
-                    <div class="footer-content">
-                        <h4 class="footer-title">Find Us</h4>
-                        <div style="
-                            height: 300px;
-                            overflow: hidden;
-                            position: relative;
-                            width: 100%;
-                            display: flex;
-                            justify-content: center;
-                            border-radius: 15px;">
-                            <div style="
-                                position: absolute;
-                                bottom: 0;
-                                height: 100%;
-                                width: calc(100vw + 600px);">
-                                <iframe class="border-card" src="
-                                https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262954.891903322!2d23.939534053717672!3d46.50262361142176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4734af3e9233c237%3A0x939c2662432a7d29!2sV%C4%83ratic%2C%20Moldova!5e1!3m2!1sro!2sus!4v1738188792724!5m2!1sro!2sus                                " 
-                                    allowfullscreen="" 
-                                    loading="lazy" 
-                                    style="border:0; width: 100%; height: 100%;">
-                                </iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-               
+      .footer-content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+      }
+
+      .contact-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.5rem;
+        gap: 0.75rem;
+      }
+
+      .contact-item i {
+        font-size: 1.25rem;
+        width: 24px;
+      }
+
+      .contact-item p {
+        margin: 0;
+        font-size: 1.1rem;
+      }
+
+      .social-icons {
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+      }
+
+      .footer-title {
+        font-size: 1.75rem;
+        color: white;
+        margin-bottom: 2rem;
+        font-weight: 600;
+      }
+
+      .quick-links a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.1rem;
+        padding: 0rem 0;
+        margin-bottom: 0;
+        transition: all 0.3s;
+      }
+
+      .quick-links a:hover {
+        color: var(--secondary);
+      }
+    </style>
+
+    <div class="container-fluid bg-footer bg-primary text-white">
+      <div class="container">
+        <div class="row">
+          <!-- Get In Touch Section -->
+          <div class="col-lg-3 footer-section">
+            <div class="footer-content">
+              <h4 class="footer-title">Get In Touch</h4>
+              <div class="contact-item">
+                <i class="bi bi-geo-alt"></i>
+                <p>Văratic, Rîșcani</p>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-envelope-open"></i>
+                <p>irina@biogreat.site</p>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-telephone"></i>
+                <p>+373 78787018</p>
+              </div>
             </div>
+          </div>
+
+          <!-- Quick Links Section -->
+          <div class="col-lg-3 footer-section">
+            <div class="footer-content">
+              <h4 class="footer-title">Quick Links</h4>
+              <div
+                class="quick-links d-flex flex-column align-items-center gap-2"
+              >
+                <a href="index.html">Home</a>
+                <a href="product.html">Product</a>
+                <a href="contact.html">Contact</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Map Section -->
+          <div class="col-lg-6 footer-section">
+            <div class="footer-content">
+              <h4 class="footer-title">Find Us</h4>
+              <div
+                style="
+                  height: 300px;
+                  overflow: hidden;
+                  position: relative;
+                  width: 100%;
+                  display: flex;
+                  justify-content: center;
+                  border-radius: 15px;
+                "
+              >
+                <div
+                  style="
+                    position: absolute;
+                    bottom: 0;
+                    height: 100%;
+                    width: calc(100vw + 600px);
+                  "
+                >
+                  <iframe
+                    class="border-card"
+                    src="
+                                https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262954.891903322!2d23.939534053717672!3d46.50262361142176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4734af3e9233c237%3A0x939c2662432a7d29!2sV%C4%83ratic%2C%20Moldova!5e1!3m2!1sro!2sus!4v1738188792724!5m2!1sro!2sus                                "
+                    allowfullscreen=""
+                    loading="lazy"
+                    style="border: 0; width: 100%; height: 100%"
+                  >
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <div class="container-fluid bg-dark text-white py-4">
-        <div class="container text-center">
-            <p class="mb-0">&copy; <a class="text-secondary fw-bold" href="#">BioGreat</a>. All Rights Reserved. Designed by <a class="text-secondary fw-bold" href="https://htmlcodex.com">HTML Codex</a></p>
-        </div>
+      <div class="container text-center">
+        <p class="mb-0">
+          &copy; <a class="text-secondary fw-bold" href="#">BioGreat</a>. All
+          Rights Reserved. Designed by
+          <a class="text-secondary fw-bold" href="https://htmlcodex.com"
+            >HTML Codex</a
+          >
+        </p>
+      </div>
     </div>
     <!-- Footer End -->
-    
+
     <!-- Back to Top -->
-    <a href="#" class="btn btn-secondary py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
-    
+    <a href="#" class="btn btn-secondary py-3 fs-4 back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -394,9 +529,8 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    
+
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    </body>
-    
-    </html>
+  </body>
+</html>
